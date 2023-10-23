@@ -1,0 +1,15 @@
+{
+  "name": "metrica",
+  "version": "1.0.0",
+  "description": "_MY THIRD PERSONAL FRONT-END PAGE FOR LEARNING PURPOSE_",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4068"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dead-server": "^1.0.9"
+  }
+}

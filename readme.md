@@ -1,18 +1,18 @@
 # REAL ESTATE
 
-_MY SECOND PERSONAL FRONT-END PAGE FOR LEARNING PURPOSE_
+_MY THIRD PERSONAL FRONT-END PAGE FOR LEARNING PURPOSE_
 
 ## ABOUT
 
-This page was built by [Denis Bashlaev](https://dribbble.com/DenisBashlaev) [design](https://dribbble.com/shots/10172325/attachments/2114690?mode=media).
+This page was built by [Akmal](https://dribbble.com/akmalnsrllh) [design](https://dribbble.com/shots/22859308-Metrica-Sales-Dashboard).
 
-Site is published and can be reviewed at: [link](https://bartasd.github.io/real_estate/)
+Site is published and can be reviewed at: [link](https://bartasd.github.io/metrika/)
 
 ## PROJECT GOALS
 
-- Getting start with HTML structure.???
-- Baby steps with MD.???
-- Recreate design for Desktop view.???
+- Getting start with HTML structure.
+- Mastering CSS
+- Start using JS
 
 ## AUTHOR
 
