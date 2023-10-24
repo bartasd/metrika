@@ -14,12 +14,14 @@ body {
 .l_header_section {
     float: left;
     width: 680px;
+    height: 50px;
 }
 
 .r_header_section {
     float: right;
     width: 400px;
     margin-top: 5px;
+    height: 50px;
 }
 
 header {
@@ -116,27 +118,67 @@ div.user_info > p:first-child {
     font-weight: bold;
 }
 
-body > div {
-    background-color: yellow;
+body > div {;
     margin: 0;
     margin-left: var(--p_width);
     margin-right: var(--p_width);
-    height: 700px;
 }
 /* aside selectors */
 
-aside {
+.aside {
     background-color: chocolate;
     width: 280px;
-    height: 600px;
+    height: 950px;
     margin: 0;
+    display: inline-block;
+}
+
+.aside_st {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: solid 1px lightgrey;
+}
+
+.panel{
+    width: 240px;
+    height: 80px;
+}
+
+.panel_img{
+    width: 60px; 
+    border-radius: 30px; 
+    margin-left: 4px;
+    float:left;
+}
+
+.panel_text{
+    width: 60px; 
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.exp_panel{
+    background-color: white;
+}
+
+.menu{
+    width: 240px;
+    height: 550px;
+}
+
+.paid_plan{
+    width: 240px;
+    height: 220px;
 }
 
 /* main section selectors */
 
 .main_section {
     background-color: green;
-    width: 500px;
-    height: 600px;
+    width: 1216px;
+    height: 950px;
     margin: 0;
+    float: right;
 }
