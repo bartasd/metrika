@@ -91,6 +91,10 @@ a + a {
     margin-top: 2.5px;
 }
 
+.flipH {
+    transform: scaleY(-1);
+}
+
 .user_info{
     float: right;
 }
