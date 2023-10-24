@@ -1,5 +1,12 @@
+:root {
+    --width: 1500px;
+    --p_width: calc(50% - var(--width)/2);
+}
+
 body {
     background-color: rgb(17, 241, 241);
+    margin:0;
+    height: 700px;
 }
 
 /* HEADER SELECTORS */
@@ -17,9 +24,9 @@ body {
 
 header {
     background-color: white;
-    width: 1500px;
+    width: var(--width);
     height: 60px;
-    margin-left: calc(50% - 750px);
+    margin-left: var(--p_width);
 }
 
 .logo {
@@ -109,3 +116,27 @@ div.user_info > p:first-child {
     font-weight: bold;
 }
 
+body > div {
+    background-color: yellow;
+    margin: 0;
+    margin-left: var(--p_width);
+    margin-right: var(--p_width);
+    height: 700px;
+}
+/* aside selectors */
+
+aside {
+    background-color: chocolate;
+    width: 280px;
+    height: 600px;
+    margin: 0;
+}
+
+/* main section selectors */
+
+.main_section {
+    background-color: green;
+    width: 500px;
+    height: 600px;
+    margin: 0;
+}
