@@ -1,10 +1,10 @@
 :root {
-    --width: 1500px;
+    --width: 80%;
     --p_width: calc(50% - var(--width)/2);
 }
 
 body {
-    background-color: rgb(17, 241, 241);
+  /*  background-color: rgb(17, 241, 241);*/
     margin:0;
     height: 700px;
 }
@@ -27,6 +27,7 @@ body {
 header {
     background-color: white;
     width: var(--width);
+    min-width: 1085px;
     height: 60px;
     margin-left: var(--p_width);
 }
@@ -118,7 +119,7 @@ div.user_info > p:first-child {
     font-weight: bold;
 }
 
-body > div {;
+body > div {
     margin: 0;
     margin-left: var(--p_width);
     margin-right: var(--p_width);
@@ -126,8 +127,8 @@ body > div {;
 /* aside selectors */
 
 .aside {
-    background-color: chocolate;
-    width: 280px;
+   /* background-color: chocolate;*/
+    width: 285px;
     height: 950px;
     margin: 0;
     display: inline-block;
@@ -136,48 +137,101 @@ body > div {;
 .aside_st {
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 15px;
     border: solid 1px lightgrey;
+    position: relative;
+    font-size: 12px;
+    color: grey;
 }
 
 .panel{
     width: 240px;
     height: 80px;
+    display:flex;
+    justify-content: center;
+    border-radius: 15px;
 }
 
 .panel_img{
-    width: 60px; 
+    width: 50px; 
     border-radius: 30px; 
-    margin-left: 4px;
-    float:left;
+    margin-left: 10px;
+    position: absolute;
+    left: 5px;
+    top: 12.5px;
 }
 
 .panel_text{
-    width: 60px; 
-    border-radius: 30px;
-    margin-left: 20px;
-    background-color: white;
+    font-size: 18px;
+    color: black;
+    width: 85px; 
+    position: absolute;
+    left: 78px;
+    top: 8px;
 }
 
 .exp_panel{
-    background-color: white;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 18px;
+    left: 200px;
 }
 
 .menu{
     width: 240px;
-    height: 550px;
+    height: 350px;
+}
+
+.menu p {
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+p.fa{
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+    font-size: 20px;
+}
+
+.menu > div:hover > p:first-child {
+    color: purple;
+}
+
+.menu > div {
+    background-color: white;
+    width: 200px;
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    display: flex;
+    color: grey;
+}
+
+.menu > div:hover{
+    background-color: rgba(128, 128, 128, 0.086);
+    color: black;
+}
+
+.preferences{
+    width: 240px;
+    height: 200px;
 }
 
 .paid_plan{
     width: 240px;
     height: 220px;
+    border-radius: 15px;
 }
 
 /* main section selectors */
 
 .main_section {
-    background-color: green;
-    width: 1216px;
+ /*   background-color: green;*/
+    width: calc(100% - 285px);
+    min-width: 800px;
     height: 950px;
     margin: 0;
     float: right;

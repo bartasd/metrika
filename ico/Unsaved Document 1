@@ -1,0 +1,27 @@
+fa fa-cubes           -> overview
+fa fa-cube            -> product
+fa fa-shopping-bag    -> order
+fa fa-pie-chart       -> analitics
+fa fa-shopping-cart   -> store
+fa fa-users           -> customer
+fa fa-credit-card-alt -> transaction
+fa fa-bullhorn        -> campaining
+
+
+
+
+fa fa-chevron-down
+fa fa-chevron-up        - varneles
+
+
+                    <div>
+                        <p class="fa fa-pie-chart" aria-hidden="true"></p>
+                        <p>Overview</p>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
