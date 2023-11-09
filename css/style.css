@@ -179,13 +179,19 @@ body > div {
 
 .menu{
     width: 240px;
-    height: 350px;
+    height: 370px;
+    position: relative;
 }
 
-.menu p {
+.menu p , .preferences p{
     margin: 0;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+.menu p:last-child , .preferences p:last-child{
+    position: absolute;
+    left: 60px;
 }
 
 p.fa{
@@ -194,11 +200,13 @@ p.fa{
     font-size: 20px;
 }
 
-.menu > div:hover > p:first-child {
+.menu > div:hover > p:first-child, 
+.preferences > div:hover > p:first-child
+{
     color: purple;
 }
 
-.menu > div {
+.menu > div, .preferences > div{
     background-color: white;
     width: 200px;
     height: 27px;
@@ -217,13 +225,15 @@ p.fa{
 
 .preferences{
     width: 240px;
-    height: 200px;
+    height: 120px;
 }
 
 .paid_plan{
     width: 240px;
     height: 220px;
     border-radius: 15px;
+    background-image: url("../img/math.jpg");
+    background-size:contain;
 }
 
 /* main section selectors */

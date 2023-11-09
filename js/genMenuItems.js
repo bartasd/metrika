@@ -37,6 +37,7 @@ export class Menu {
 
     render() {
         let HTML = '';
+        HTML = `<p>${this.selector.slice(1)}</p>`;
 
         for (let i = 0; i < this.len; i++) {
             HTML += `

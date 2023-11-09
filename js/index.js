@@ -22,8 +22,10 @@ drop_panel.addEventListener('click', function onClick() {
 
 import { Menu } from "./genMenuItems.js";
 
-const rows = ["Overview", "Product", "Order", "Analitics", "Store", "Customer", "Transactions", "Campaign"];
-const fonts = ["cubes", "cube", "shopping-bag", "pie-chart", "shopping-cart", "users", "credit-card-alt", "bullhorn" ];
+const m_rows = ["Overview", "Product", "Order", "Analitics", "Store", "Customer", "Transactions", "Campaign"];
+const m_fonts = ["cubes", "cube", "shopping-bag", "pie-chart", "shopping-cart", "users", "credit-card-alt", "bullhorn" ];
+const menius = new Menu('#menu', m_rows, m_fonts);
 
-
-const menius = new Menu('#menu', rows, fonts);
+const p_rows = ["Settings", "Help"];
+const p_fonts = ["tasks", "info-circle" ];
+const preferences = new Menu('#preferences', p_rows, p_fonts);
